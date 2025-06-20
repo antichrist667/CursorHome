@@ -15,7 +15,7 @@ Desarrollo de la interfaz *home* de la app académica UCE, utilizando Flutter co
 
 ---
 
-## 📚 Características
+## 💡 Características
 
 - 📰 Panel de **notificaciones** con alertas tipo calendario y mensajes
 - 📋 Resumen visual de **estado de matrícula**
@@ -30,17 +30,25 @@ Desarrollo de la interfaz *home* de la app académica UCE, utilizando Flutter co
 
 ## 📂 Estructura del Proyecto
 
-```
+```plaintext
 CursorHome/
 ├── lib/
-│   ├── main.dart              # Punto de entrada
+│   ├── main.dart
 │   ├── screens/
 │   │   └── matricula_screen1.dart
-│   └── widgets/               # (pendiente para refactorización)
-├── android/                   # Proyecto nativo Android
-├── windows/                   # Proyecto nativo Windows
-├── pubspec.yaml               # Dependencias y configuración
+│   └── widgets/
+├── android/
+├── windows/
+├── pubspec.yaml
 ```
+
+### Descripción de archivos clave
+
+- `main.dart`: Punto de entrada principal de la app.
+- `matricula_screen1.dart`: Interfaz principal de la pantalla de matrícula.
+- `widgets/`: Carpeta futura para componentes reutilizables.
+- `android/` y `windows/`: Código nativo para cada plataforma.
+- `pubspec.yaml`: Archivo de configuración y dependencias.
 
 ---
 
@@ -79,6 +87,4 @@ flutter run -d windows
 Estudiante de Ingeniería en Sistemas  
 Universidad Central del Ecuador  
 GitHub: [@antichrist667](https://github.com/antichrist667)
-
----
 ```
