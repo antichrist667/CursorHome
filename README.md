@@ -1,17 +1,7 @@
 ```markdown
 # 📱 Matrícula App - CursorHome
 
-Una aplicación desarrollada con **Flutter** que simula el módulo de matrícula de una institución educativa. Está diseñada para usarse principalmente en **dispositivos móviles**, pero también es compatible con escritorio (Windows), ideal para pruebas y desarrollo rápido.
-
----
-
-## 👨‍💻 Autor
-
-- **Cristian Roberto Caiza Moposita**
-- Estudiante de Ingeniería en Sistemas
-- Universidad Central del Ecuador  
-- GitHub: [@antichrist667](https://github.com/antichrist667)
-
+Desarrollo de la interfaz home de la app acádemica UCE, utilizando Cursor.
 ---
 
 ## 🧩 Tecnologías
@@ -80,6 +70,11 @@ flutter run -d emulator-5554
 flutter run -d windows
 ```
 
---
-Este proyecto es de uso académico. Todos los derechos reservados © Cristian Caiza - UCE 2025.
-```
+## 👨‍💻 Autor
+
+- **Cristian Roberto Caiza Moposita**
+- Estudiante de Ingeniería en Sistemas
+- Universidad Central del Ecuador  
+- GitHub: [@antichrist667](https://github.com/antichrist667)
+
+---
