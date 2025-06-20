@@ -1,7 +1,8 @@
 ```markdown
 # 📱 Matrícula App - CursorHome
 
-Desarrollo de la interfaz home de la app acádemica UCE, utilizando Cursor.
+Desarrollo de la interfaz *home* de la app académica UCE, utilizando Flutter con el IDE Cursor.
+
 ---
 
 ## 🧩 Tecnologías
@@ -16,18 +17,18 @@ Desarrollo de la interfaz home de la app acádemica UCE, utilizando Cursor.
 
 ## 📚 Características
 
-- 📰 **Panel de Notificaciones** con alertas tipo calendario y mensajes
-- 📋 **Resumen de matrícula activa**
-- ⚙️ **Acciones rápidas**:
+- 📰 Panel de **notificaciones** con alertas tipo calendario y mensajes
+- 📋 Resumen visual de **estado de matrícula**
+- ⚙️ Acciones rápidas:
   - Carga horaria
   - Simulador de matrícula
   - Registro de matrícula
-- ✅ Interfaz modernizada con diseño **Material 3**
-- 📱 Optimizada para **pantallas móviles**
+- 🧼 Interfaz moderna y minimalista basada en **Material Design 3**
+- 📱 Optimizada para **pantallas móviles**, también ejecutable en escritorio
 
 ---
 
-## 📂 Estructura del proyecto
+## 📂 Estructura del Proyecto
 
 ```
 CursorHome/
@@ -35,15 +36,15 @@ CursorHome/
 │   ├── main.dart              # Punto de entrada
 │   ├── screens/
 │   │   └── matricula_screen1.dart
-│   └── widgets/               # (Pendiente para refactor)
+│   └── widgets/               # (pendiente para refactorización)
 ├── android/                   # Proyecto nativo Android
 ├── windows/                   # Proyecto nativo Windows
-├── pubspec.yaml               # Dependencias y assets
+├── pubspec.yaml               # Dependencias y configuración
 ```
 
 ---
 
-## 🚀 Cómo ejecutar
+## 🚀 Cómo Ejecutar
 
 ### 1. Clonar el proyecto
 
@@ -58,7 +59,7 @@ cd CursorHome
 flutter pub get
 ```
 
-### 3. Ejecutar
+### 3. Ejecutar la aplicación
 
 #### En Android:
 ```bash
@@ -70,11 +71,14 @@ flutter run -d emulator-5554
 flutter run -d windows
 ```
 
+---
+
 ## 👨‍💻 Autor
 
-- **Cristian Roberto Caiza Moposita**
-- Estudiante de Ingeniería en Sistemas
-- Universidad Central del Ecuador  
-- GitHub: [@antichrist667](https://github.com/antichrist667)
+**Cristian Roberto Caiza Moposita**  
+Estudiante de Ingeniería en Sistemas  
+Universidad Central del Ecuador  
+GitHub: [@antichrist667](https://github.com/antichrist667)
 
 ---
+```
